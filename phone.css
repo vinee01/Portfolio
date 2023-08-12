@@ -1,64 +1,116 @@
+
+@media (max-width: 585px){
+
+
+.container-fluid {
+    padding: 4% 7%;
+}
+    /* navbar */
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+
+/* home */
+
+.home-image img{
+    height: 16rem;
+    width: 16rem;
+}
+
+.social-icons a {
+    max-width: 3.3rem;
+    max-height: 3.3rem;
+}
+
+.home-heading h1{
+    font-size: 2.8rem;
+}
+
+.home-heading h3{
+    font-size: 1.5rem;
+}
+
+/* about section */
+
+.about-image img{
+    height: 16rem;
+    width: 16rem;
+}
+
+/* project-section */
+
+.project-layer {
+    padding: 0 2rem;
+}
+
+.project-layer h4 {
+    font-size: 1rem;
+}
+
+}
+
 @media (max-width: 1200px) {
-
-    .main-div {
-        padding: 5% 7%;
+    .project-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .about-box {
+        padding: 1.5rem;
     }
 
-    .feels-like, .humidity, .visiblity, .windspeed {
-        padding: 1rem;
-        margin-left: auto;
+    .about-section .container-fluid .row{
+        margin-bottom: 2rem;
+    }
+    
+    
+}
+
+@media (max-width: 900px) {
+    .project-container {
+        margin: 0.5rem;
+        gap: 3rem;
     }
 
-    .text-hide {
-        display: none;
+    .skillCard-img {
+        max-height: 2rem;
+        max-width: 2rem;
+    }
+    
+    .skills-col{
+        padding: 1.2rem;
+        margin: 1rem;
     }
 
-    .sunrise-sunset-text {
-    font-size: 1.25rem;
+    .skills-col h5{
+        font-size: 0.8rem;
     }
 
-    .sunrise-icon, .sunset-icon {
-        width: 1.8rem;
-        height: 1.8rem;
+    .skills-section-heading {
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .projects-section-heading {
+        margin-top: 2rem;
+    }
+
+    .project-container {
+        margin-bottom: 2.5rem;
+    }
+    
+    .contact-heading {
+        margin-top: 2rem;
+    }
+
+    .contact-button {
+        margin-bottom: 2rem;
     }
 }
 
-@media (max-width: 600px) {
-
-
-    .search-box {
-        width: 150px;
-    }
-
-    .location {
-        gap: 1rem;
-    }
-
-    .button {
-        padding: 5px;
-        height: 35px;
-        width: 35px;
-    }
-
-    .hour{
-        /* margin: 0; */
-        padding: 10px;
-    }
-
-    .feels-like, .humidity, .visiblity, .windspeed {
-        margin-left: auto;
-    }
-
-    .sunrise-sunset, .min-max-temp {
+@media (max-width: 991.5px) {
+    .nav-item {
         margin-left: 0;
-        margin-right: 0;
-        padding: 1rem;
-    }
-
-}
-
-@media (max-width: 1000px) {
-    .current-weather-div {
-        padding: 1rem;
     }
 }
