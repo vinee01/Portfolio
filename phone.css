@@ -11,11 +11,14 @@
     color: white;
 }
 
+.navbar .container-fluid {
+    padding: 4% 7%;
+}
+
 
 /* home */
 
 .home-image img{
-    height: 16rem;
     width: 16rem;
 }
 
@@ -47,6 +50,22 @@
 
 .project-layer h4 {
     font-size: 1rem;
+}
+
+.project-layer p {
+    font-size: 0.8rem;
+}
+
+.contact-section {
+    padding: 0;
+}
+
+.form-box {
+    padding: 10px;
+}
+
+.contact-details {
+    padding: 10px;
 }
 
 }
